@@ -1,0 +1,50 @@
+.Menu-bg {
+    background-image: -webkit-linear-gradient(rgba(16, 116, 32, .3), rgba(74, 213, 117, .3)), url('../../Assets/anh-nguyen-removebg.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.Button-menu {
+    width: 9em;
+    height: 3em;
+    border-radius: 30em;
+    font-size: 15px;
+    font-family: inherit;
+    border: none;
+    position: relative;
+    overflow: hidden;
+    z-index: 1;
+    background-color: var(--color-blue);
+    color: var(--color-white);
+}
+
+.Button-menu::before {
+    content: '';
+    width: 0;
+    height: 3em;
+    border-radius: 30em;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-image: linear-gradient(to right, var(--color-primary) 0%, var(--color-secondary) 100%);
+    transition: .5s ease;
+    display: block;
+    z-index: -1;
+   }
+   
+   .Button-menu:hover::before {
+    width: 9em;
+   }
+
+   @media (max-width: 800px) {
+       .Menu-bg{
+           height: 160vh;
+       }
+   }
+   @media (max-width: 500px) {
+       .Menu-bg{
+           height: 280vh;
+       }
+   }
+
+  

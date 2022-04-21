@@ -1,0 +1,47 @@
+@import url('https://fonts.googleapis.com/css2?family=Cookie&display=swap');
+.About {
+    background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' version='1.1' xmlns:xlink='http://www.w3.org/1999/xlink' xmlns:svgjs='http://svgjs.com/svgjs' width='1440' height='560' preserveAspectRatio='none' viewBox='0 0 1440 560' style='user-select: auto%3b'%3e%3cg mask='url(%26quot%3b%23SvgjsMask1022%26quot%3b)' fill='none' style='user-select: auto%3b'%3e%3cpath d='M510.945%2c544.756C530.109%2c544.266%2c548.975%2c538.21%2c559.682%2c522.309C571.796%2c504.317%2c577.918%2c480.543%2c566.665%2c462C555.692%2c443.918%2c532.094%2c441.745%2c510.945%2c441.999C490.387%2c442.246%2c468.602%2c446.011%2c457.492%2c463.31C445.599%2c481.829%2c445.62%2c506.514%2c457.696%2c524.914C468.835%2c541.887%2c490.65%2c545.274%2c510.945%2c544.756' fill='rgba(74%2c 213%2c 117%2c 1)' class='triangle-float1' style='user-select: auto%3b'%3e%3c/path%3e%3cpath d='M792.108800605853 106.39385870909317L759.8536377181752 245.5013443903532 879.8459836627749 211.09409286436457z' fill='rgba(74%2c 213%2c 117%2c 1)' class='triangle-float2' style='user-select: auto%3b'%3e%3c/path%3e%3cpath d='M261.0950620535227 141.93704439996648L305.62550619386514 213.20065175128997 376.8891135451886 168.67020761094756 332.3586694048462 97.40660025962408z' fill='rgba(74%2c 213%2c 117%2c 1)' class='triangle-float3' style='user-select: auto%3b'%3e%3c/path%3e%3cpath d='M755.9246656113612 103.33438573972688L722.8938749766837-4.704462298309252 647.8858175733251 136.36517637440437z' fill='rgba(74%2c 213%2c 117%2c 1)' class='triangle-float2' style='user-select: auto%3b'%3e%3c/path%3e%3cpath d='M303.70679913417615 242.94974267204296L386.5355741747831 348.9657401900706 492.5515716928108 266.13696514946366 409.72279665220384 160.12096763143597z' fill='rgba(74%2c 213%2c 117%2c 1)' class='triangle-float3' style='user-select: auto%3b'%3e%3c/path%3e%3c/g%3e%3cdefs style='user-select: auto%3b'%3e%3cmask id='SvgjsMask1022' style='user-select: auto%3b'%3e%3crect width='1440' height='560' fill='white' style='user-select: auto%3b'%3e%3c/rect%3e%3c/mask%3e%3cstyle style='user-select: auto%3b'%3e %40keyframes float1 %7b 0%25%7btransform: translate(0%2c 0)%7d 50%25%7btransform: translate(-10px%2c 0)%7d 100%25%7btransform: translate(0%2c 0)%7d %7d .triangle-float1 %7b animation: float1 5s infinite%3b %7d %40keyframes float2 %7b 0%25%7btransform: translate(0%2c 0)%7d 50%25%7btransform: translate(-5px%2c -5px)%7d 100%25%7btransform: translate(0%2c 0)%7d %7d .triangle-float2 %7b animation: float2 4s infinite%3b %7d %40keyframes float3 %7b 0%25%7btransform: translate(0%2c 0)%7d 50%25%7btransform: translate(0%2c -10px)%7d 100%25%7btransform: translate(0%2c 0)%7d %7d .triangle-float3 %7b animation: float3 6s infinite%3b %7d %3c/style%3e%3c/defs%3e%3c/svg%3e");
+}
+
+.Story {
+    font-size: 7rem;
+    line-height: 4.7rem;
+    font-family: 'Cookie', sans-serif;
+    color: var(--color-blue);
+}
+
+@media (max-width: 950px) {
+    .About-img {
+        min-height: 80vh;
+        max-width: 100%;
+        margin-left: 3rem;
+    }
+    .About {
+        margin-top: -3rem;
+    }
+
+    .Story {
+        font-size: 4rem;
+        line-height: 2.7rem;
+    }
+
+}
+
+@media (max-width: 830px) {
+    .About-left {
+        display: none;
+    }
+    .About-right {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+}
+
+@media (max-width: 830px) {
+    .About {
+        margin-top: 3rem;
+    }
+}

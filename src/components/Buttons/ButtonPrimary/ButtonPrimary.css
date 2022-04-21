@@ -1,0 +1,84 @@
+.Button {
+    position: relative;
+    padding: 15px 30px;
+    display: block;
+    text-decoration: none;
+    text-transform: uppercase;
+    overflow: hidden;
+    border-radius: 40px;
+    border: none;
+   }
+   
+   .Button .Span {
+    position: relative;
+    color: #fff;
+    z-index: 1;
+   }
+   
+   .Button .liquid {
+    position: absolute;
+    top: -80px;
+    left: 0;
+    width: 100%;
+    height: 200px;
+    background: var(--color-primary);
+    box-shadow: inset 0 0 50px rgba(0, 0, 0, .5);
+    transition: .5s;
+   }
+   
+   .Button .liquid::after,
+   .Button .liquid::before {
+    content: '';
+    width: 200%;
+    height: 200%;
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translate(-50%, -75%);
+    background: #fff;
+   }
+   
+   .Button .liquid::before {
+    border-radius: 45%;
+    background: var(--color-blue);
+    animation: animate 5s linear infinite;
+   }
+   
+   .Button .liquid::after {
+    border-radius: 40%;
+    background: var(--color-blue);
+    animation: animate 10s linear infinite;
+   }
+   
+   .Button:hover .liquid {
+    top: -120px;
+   }
+   
+   @keyframes animate {
+    0% {
+     transform: translate(-50%, -75%) rotate(0deg);
+    }
+   
+    100% {
+     transform: translate(-50%, -75%) rotate(360deg);
+    }
+   }
+
+   /* @media (max-width : 660px) {
+    .Button {
+        padding: 10px 15px;
+    }
+
+    .Span {
+        font-size: .8rem;
+    }
+   }
+   @media (max-width : 540px) {
+    .Button {
+        padding: 5px 10px;
+    }
+
+    .Span {
+        font-size: .6rem;
+    }
+   } */

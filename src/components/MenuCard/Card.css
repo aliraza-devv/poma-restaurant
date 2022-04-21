@@ -1,0 +1,39 @@
+.card {
+  border-radius: 50px;
+  box-shadow: inset 34px 34px 64px #c7c7c7,
+              inset -34px -34px 64px #f9f9f9;
+  border: 2px solid var(--color-white);
+  padding: .7rem;
+}
+
+@media (max-width: 800px) {
+  .card {
+    width: 70%;
+    height: 100%;
+  }
+
+  .Render-card {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    /* grid-column-gap: 8px; */
+    grid-row-gap: 12px;
+    place-items: center;
+    place-content: center;
+  }
+
+  .Card-img {
+    width: 70%;
+  }
+}
+@media (max-width: 500px) {
+
+  .Render-card {
+    grid-template-columns: repeat(1, 1fr);
+    grid-template-rows: repeat(4, 1fr);
+  }
+}
+
+
+  
+ 

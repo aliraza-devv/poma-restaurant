@@ -1,0 +1,21 @@
+.Footer {
+    background-color: var(--color-blue);
+    font-family: 'Montserrat', sans-serif;
+}
+
+.Footer-contact-span:hover {
+    color: var(--color-primary);
+    font-size: 1.3rem;
+}
+
+
+
+@media (max-width: 650px) {
+    .Footer-sub {
+        flex-direction: column;
+    }
+
+    .Footer-copyright-item{
+        padding: 1rem;
+    }
+}

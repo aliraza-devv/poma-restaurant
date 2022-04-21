@@ -1,0 +1,23 @@
+.Review-img {
+    border-radius: 32% 68% 43% 57% / 25% 46% 54% 75% ;
+}
+
+.bg-review{
+    background-image: url('../../Assets/ingredients_removebg.png');
+    background-position: center;
+    background-size: 50rem;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 100vh;
+}
+
+.Review-card {
+    /* background: #e0e0e0; */
+     border-radius: 2% 65% 10% 90% / 81% 10% 87% 15%;
+    background-image: -webkit-linear-gradient(rgba(16, 116, 32, .7), rgba(74, 213, 117, .6)); 
+}
+
+.bg-pan-left {
+	-webkit-animation: bg-pan-left 5s both linear infinite alternate;
+	        animation: bg-pan-left 5s both linear infinite alternate;
+}
