@@ -1,12 +1,12 @@
 import Steaks from "../../Assets/Steaks.png";
 import Steaks2 from '../../Assets/Steaks-2.png'
-import Fish from '../../Assets/Fissh-curry.png'
+import Pasta from '../../Assets/Pasta.png'
 import Biryani from "../../Assets/biryani.png";
 import Kabab from "../../Assets/Kabab.png";
 import Haleem from "../../Assets/Haleem.png";
 import Salad1 from '../../Assets/salad_1.png'
 import Salad2 from '../../Assets/salad_2.png'
-import Salad3 from '../../Assets/anh-nguyen-removebg.png'
+import Salad3 from '../../Assets/anna-pelzer.png'
 import RussianSalad from '../../Assets/russian_salad.png'
 
 export default [
@@ -78,7 +78,7 @@ export default [
             price: "$4.49",
           },
           {
-            image: Fish,
+            image: Pasta,
             title: "Fish Curry",
             description: "Most tasty Kabab you will ever taste.",
             price: "$3.99",
