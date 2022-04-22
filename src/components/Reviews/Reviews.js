@@ -12,7 +12,6 @@ import Person4 from "../../Assets/person-4.jpg";
 import Person5 from "../../Assets/person-5.jpg";
 import Person6 from "../../Assets/person-6.jpg";
 import Person7 from "../../Assets/person-7.jpg";
-import Person8 from "../../Assets/person-8.jpg";
 
 const Reviews = () => {
   const options = {

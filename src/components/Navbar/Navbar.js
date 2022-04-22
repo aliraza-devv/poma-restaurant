@@ -4,7 +4,6 @@ import 'aos/dist/aos.css';
 import "./Navbar.css";
 import MobileNavigation from "./MobileNavigation";
 import Navigation from "./Navigation";
-import Logo from "../../Assets/logo-removebg.png";
 
 const Navbar = () => {
   return (

@@ -10,7 +10,7 @@ const Offer = () => {
     <div id='offer'>
     <h1 className='Heading-gradient text-center'>Special Deal</h1>
     <div className='w-[100%] h-[90vh] relative flex items-center justify-center mt-[-2rem]'>
-        <img src={OfferBg} className='absolute z-[-10] mt-[-22rem] ml-[80rem]' alt='Offer_bg' />
+        <img src={OfferBg} className='absolute Offer-bg-img z-[-10] mt-[-22rem] ml-[80rem]' alt='Offer_bg' />
         <div className='Offer flex gap-0 justify-center items-center'>
             <div data-aos="fade-right" data-aos-easing="linear" data-aos-duration="1000" className='Offer-details flex justify-center items-center w-[100%] h-[100%]'>
                 <div className='w-[100%] p-[1rem]'>
@@ -31,9 +31,6 @@ const Offer = () => {
                         <p className='text-[#011936] text-lg Offer-typo'>
                             Special deal for you take it now!
                         </p>
-                        {/* <p className='text-[#011936] text-lg opacity-0 hover:opacity-1'>
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                        </p> */}
                         </div>
                     </div>
                 </div>

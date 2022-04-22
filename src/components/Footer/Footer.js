@@ -29,7 +29,7 @@ const Footer = () => {
                 <p>Based in Pakistan, Punjab, Vehari</p>
             </div>
             <div className='Footer-logo' data-aos="zoom-in" data-aos-easing="ease-out-cubic" data-aos-duration="2500">
-                <img loading='lazy' className='h-[12rem]' src={Logo} />
+                <img alt='Footer_Logo' loading='lazy' className='h-[12rem]' src={Logo} />
             </div>
             <div className='mr-[3rem] mt-[3rem]'>
                 <p className='Footer-copyright-item' >
