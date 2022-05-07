@@ -1,5 +1,5 @@
 import './Navbar.css';
-import { HashLink as Link } from 'react-router-hash-link'
+import { HashLink as Link } from 'react-router-hash-link';
 
 const NavLinks = () => {
     return ( 
@@ -16,7 +16,7 @@ const NavLinks = () => {
         </li>
         <li className="List-style-item" data-aos="fade-down" data-aos-duration='1500'>
           <Link smooth to='#offer' className="anchor hover:text-[#4AD575] ease-in">
-            Offer
+            Deals
           </Link>
         </li>
         <li className="List-style-item" data-aos="fade-down" data-aos-duration='1800'>

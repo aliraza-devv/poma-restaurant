@@ -26,7 +26,7 @@ const Home = () => {
           </p>
           <div className="flex Home-Button">
             <ButtonPrimary title='Explore Food' />
-            <ButtonSecondary title='View Menu' />
+            <ButtonSecondary title='Special Deal' />
           </div>
         </div>
         <div className="max-w-[40%] Home-media">
